@@ -1,7 +1,8 @@
 #title{
     background-color: #ff4c68;
     color: #ffffff;
-    height: 500px;
+    padding: 7% 15%;
+    
     
 
 }
@@ -17,7 +18,6 @@ h2{
 h3{
     font-family: 'Fredoka One', cursive;
     font-weight: bold;
-
 }
 p{
     color: #afafaf;
@@ -30,11 +30,10 @@ p{
 /* Iphone image */
 .iphone{
    
-   width:20%;
-   height:70%;
+    width:60%;
     transform: rotate(25deg);
     position: absolute;
-    margin-right: 30%;
+ 
 }
 
 
@@ -123,4 +122,37 @@ p{
     .pricing-column{
         padding: 3% 2%;
         
+    }
+
+    /* Call to Action */
+    #cta{
+        background-color: #ff4c68;
+        color: #ffffff;
+        text-align: center;
+        padding: 7% 15%;
+
+    }
+    .cta-heading{
+        font-size: 3rem;
+        line-height: 2rem;
+    }
+
+    /* Footer */
+    #footer{
+        padding: 7% 15%;
+        text-align: center;
+    }
+    .social-icons{
+        margin:20px 10px;
+    }
+
+    @media(max-width: 1028px){
+
+        #title{
+            text-align: center;
+        }
+        .iphone{
+            position: static;
+            transform: rotate(0deg);
+        }
     }
