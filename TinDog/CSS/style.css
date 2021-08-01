@@ -1,28 +1,28 @@
-#title{
-    background-color: #ff4c68;
-    color: #ffffff;
-    padding: 7% 15%;
-    
-    
-
+body{
+    text-align: center;
 }
-h1{
-    font-family: 'Fredoka One', cursive;
-    font-size: 3.5rem;
-}
-h2{
-    font-family: 'Fredoka One', cursive;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-h3{
-    font-family: 'Fredoka One', cursive;
-    font-weight: bold;
+h1,h2,h3,h4,h5,h6{
+    font-family: "Fredoka One",cursive;
 }
 p{
     color: #afafaf;
 }
-.container-fluid{
+
+
+
+/* Headings */
+.heading-one{
+    font-family: "Fredoka One", cursive;
+    font-size: 4rem;
+    line-height: 3.5rem;
+}
+.heading-two{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+/* Containers */
+#title.container-fluid{
     padding: 3% 15% 7%;
 }
 
@@ -30,30 +30,33 @@ p{
 /* Iphone image */
 .iphone{
    
-    width:60%;
+    width:20%;
+    height:70%;
+    margin-top: 3%;
     transform: rotate(25deg);
     position: absolute;
  
 }
-
-
-
-
-
 /*Navigation Bar */
-
-
 .navbar{
     padding:0 0 4.5rem;
 }
 
 .navbar-brand{
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: bold;
 }
 .nav-item{
     padding: 0 18px;
 
+}
+/* Title */
+#title{
+    background-color: #ff4c68;
+    color: #ffffff;
+    padding: 7% 15%;
+    text-align: left;
+    padding-top: 30px;
 }
 
 /*Download buttons*/
@@ -71,10 +74,13 @@ p{
     position: relative;
     
 }
+.feature-title{
+    font-size: 1.5rem;
+}
 
 .feature-box{
-    text-align: center;
-    padding: 5%;
+   
+    padding: 4.5%;
 }
 
 .icon{
@@ -89,7 +95,7 @@ p{
 /* Testimonials */
 #testimonials{
     padding: 7% 15%;
-    text-align: center;
+    
     background-color: #ef8172;
     color: #ffffff;
 }
@@ -101,7 +107,7 @@ p{
 
     #press{
         background-color: #ef8172;
-        text-align: center;
+        
         padding-bottom: 5%;
     }
 
@@ -117,7 +123,7 @@ p{
     /* Pricing */
    #pricing {
         padding: 100px;
-        text-align: center;
+     
     }
     .pricing-column{
         padding: 3% 2%;
@@ -128,19 +134,14 @@ p{
     #cta{
         background-color: #ff4c68;
         color: #ffffff;
-        text-align: center;
+      
         padding: 7% 15%;
 
     }
-    .cta-heading{
-        font-size: 3rem;
-        line-height: 2rem;
-    }
-
     /* Footer */
     #footer{
         padding: 7% 15%;
-        text-align: center;
+       
     }
     .social-icons{
         margin:20px 10px;
@@ -149,10 +150,11 @@ p{
     @media(max-width: 1028px){
 
         #title{
-            text-align: center;
+            
         }
         .iphone{
             position: static;
             transform: rotate(0deg);
+            
         }
     }
