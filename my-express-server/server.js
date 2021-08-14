@@ -6,6 +6,9 @@ app.get("/",function(req,res){
 });
 app.get("/contact",function(req,res){
   res.send("<h1>Contact me here</h1>");  
+});
+app.get("/about",function(req,res){
+  res.send("<h1>About myself hehehe what about you</h1>" );  
 
 });
 app.listen(3000,function(){
